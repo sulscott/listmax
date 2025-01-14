@@ -1,0 +1,126 @@
+{
+    "resource": "/incoming",
+    "path": "/incoming",
+    "httpMethod": "POST",
+    "headers": {
+        "Accept": "*/*",
+        "CloudFront-Forwarded-Proto": "https",
+        "CloudFront-Is-Desktop-Viewer": "true",
+        "CloudFront-Is-Mobile-Viewer": "false",
+        "CloudFront-Is-SmartTV-Viewer": "false",
+        "CloudFront-Is-Tablet-Viewer": "false",
+        "CloudFront-Viewer-ASN": "14618",
+        "CloudFront-Viewer-Country": "US",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Host": "s5xwi1qwh2.execute-api.us-east-1.amazonaws.com",
+        "I-Twilio-Idempotency-Token": "96184993-7db3-4e11-81eb-b0491afee8a4",
+        "User-Agent": "TwilioProxy/1.1",
+        "Via": "1.1 5451b84324d9bca0bdd03e4c4009ae10.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Id": "_B3HABVxxKmpBZ0pXp9tgEoLdXC91siQ1vmg2joS3jYWJkA9rp11kg==",
+        "X-Amzn-Trace-Id": "Root=1-67579024-7342640f5095acf45cd65a22",
+        "X-Forwarded-For": "3.91.188.18, 130.176.137.143",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https",
+        "X-Home-Region": "us1",
+        "X-Twilio-Signature": "vPFzeQ7uOW+sWP8Egex9I8bd0I4="
+    },
+    "multiValueHeaders": {
+        "Accept": [
+            "*/*"
+        ],
+        "CloudFront-Forwarded-Proto": [
+            "https"
+        ],
+        "CloudFront-Is-Desktop-Viewer": [
+            "true"
+        ],
+        "CloudFront-Is-Mobile-Viewer": [
+            "false"
+        ],
+        "CloudFront-Is-SmartTV-Viewer": [
+            "false"
+        ],
+        "CloudFront-Is-Tablet-Viewer": [
+            "false"
+        ],
+        "CloudFront-Viewer-ASN": [
+            "14618"
+        ],
+        "CloudFront-Viewer-Country": [
+            "US"
+        ],
+        "Content-Type": [
+            "application/x-www-form-urlencoded"
+        ],
+        "Host": [
+            "s5xwi1qwh2.execute-api.us-east-1.amazonaws.com"
+        ],
+        "I-Twilio-Idempotency-Token": [
+            "96184993-7db3-4e11-81eb-b0491afee8a4"
+        ],
+        "User-Agent": [
+            "TwilioProxy/1.1"
+        ],
+        "Via": [
+            "1.1 5451b84324d9bca0bdd03e4c4009ae10.cloudfront.net (CloudFront)"
+        ],
+        "X-Amz-Cf-Id": [
+            "_B3HABVxxKmpBZ0pXp9tgEoLdXC91siQ1vmg2joS3jYWJkA9rp11kg=="
+        ],
+        "X-Amzn-Trace-Id": [
+            "Root=1-67579024-7342640f5095acf45cd65a22"
+        ],
+        "X-Forwarded-For": [
+            "3.91.188.18, 130.176.137.143"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ],
+        "X-Home-Region": [
+            "us1"
+        ],
+        "X-Twilio-Signature": [
+            "vPFzeQ7uOW+sWP8Egex9I8bd0I4="
+        ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+        "resourceId": "v39a1s",
+        "resourcePath": "/incoming",
+        "httpMethod": "POST",
+        "extendedRequestId": "CjN1zF5vIAMEnXA=",
+        "requestTime": "10/Dec/2024:00:49:40 +0000",
+        "path": "/Prod/incoming",
+        "accountId": "702040788915",
+        "protocol": "HTTP/1.1",
+        "stage": "Prod",
+        "domainPrefix": "s5xwi1qwh2",
+        "requestTimeEpoch": 1733791780741,
+        "requestId": "c6bbd0ca-a40c-4c2d-a53e-d037f631ba81",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": null,
+            "cognitoIdentityId": null,
+            "caller": null,
+            "sourceIp": "3.91.188.18",
+            "principalOrgId": null,
+            "accessKey": null,
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": null,
+            "userAgent": "TwilioProxy/1.1",
+            "user": null
+        },
+        "domainName": "s5xwi1qwh2.execute-api.us-east-1.amazonaws.com",
+        "deploymentId": "ujyhey",
+        "apiId": "s5xwi1qwh2"
+    },
+    "body": "ToCountry=US&ToState=OH&SmsMessageSid=SMb7bf143f07dd30acc7e45978e8637c56&NumMedia=0&ToCity=&FromZip=80210&SmsSid=SMb7bf143f07dd30acc7e45978e8637c56&FromState=CO&SmsStatus=received&FromCity=DENVER&Body=https%3A%2F%2Fwww.seriouseats.com%2Fmansaf-recipe-6888919&FromCountry=US&To=%2B16145413137&ToZip=&NumSegments=1&MessageSid=SMb7bf143f07dd30acc7e45978e8637c56&AccountSid=AC17c1c248aa35d96dac32b3f7abd4b659&From=%2B17202326272&ApiVersion=2010-04-01",
+    "isBase64Encoded": false
+}
